@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/nfkyc-Y74G8X7C9D1-Full-Image_GalleryBackground-en-US-1535575828915._RI_.jpg);
+    }
+h1{
+    background-color:rgb(192, 240, 255);
+    color: purple;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: jokerman;
+    color: bluevioletpurple;
+}
+
+
+span
+{
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+}
+#sketch_to_be_drawn{
+    color: rgb(240, 241, 137);
+  }
+  
+#score{
+    font-size: 30px;
+    font-family:monospace;
+    margin-left:800px;
+    color:wheat;
+}
+
+#timer{
+    font-size: 30px;
+    font-family: monospace;
+    margin-right: 50px;
+    float: right;
+    color:wheat;
+}
+
+canvas{
+    border: 5px solid rgb(11, 14, 196);
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    box-shadow:5px 5px 5px rgb(241, 241, 245);
+    box-shadow: 1px 1px 38px #0f0f0f;
+}
+    
+    @keyframes example {
+    
+      from {box-shadow: 1px 1px 38px rgb(97, 9, 28);}
+      to {box-shadow: 1px 1px 38px rgb(241, 239, 239);}
+    
+    }
